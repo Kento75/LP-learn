@@ -114,8 +114,16 @@ p.newsText {
 }
 
 #right {
-  width: 250px;
+  width: 150px;
   height: auto;
   float: left;
   margin-top: 15px;
+}
+
+footer {
+  width: 960px;
+  height: 50px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
 }
