@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: #eee;
+  display: grid;
+  grid-template-rows: 80px 80px 80px;
+  grid-template-columns: 80px [item-1-start] 80px 80px [item-1-end];
+  /* grid-template-columns: 100px 1fr 2fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px; */
+  /* grid-template-columns: 50% 80px 80px; */
+  /* grid-template: repeat(3, 80px) / repeat(auto-fill, 80px); */
+}
+
+.item-1 {
+  background-color: hsl(300, 80%, 30%);
+  /* grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 4; */
+  grid-row: 3 / 4;
+  grid-column: item-1-start / item-1-end;
+  z-index: 1;
+}
+
+.item-2 {
+  background-color: hsl(300, 80%, 40%)
+}
+
+.item-3 {
+  background-color: hsl(300, 80%, 50%)
+}
+
+.item-4 {
+  background-color: hsl(200, 80%, 30%);
+  grid-row: 1 / 4;
+  grid-column: -1 / -2;
+}
+
+.item-5 {
+  background-color: hsl(200, 80%, 40%)
+}
+
+.item-6 {
+  background-color: hsl(200, 80%, 50%)
+}
+
+.item-7 {
+  background-color: hsl(100, 80%, 30%)
+}
+
+.item-8 {
+  background-color: hsl(100, 80%, 40%)
+}
+
+.item-9 {
+  background-color: hsl(100, 80%, 50%)
+}
