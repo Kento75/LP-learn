@@ -24,6 +24,8 @@ body {
   text-align: center;
   font-weight: normal;
   font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 60px;
 }
 
 .section-title::after {
@@ -73,4 +75,68 @@ header img {
   opacity: 1.0;
 }
 
+/* feature */
 
+.feature:not(:last-child) {
+  padding-bottom: 60px;
+}
+
+.feature h1 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.feature .desc {
+  width: 360px;
+}
+
+.feature:nth-of-type(odd) .desc {
+  float: right;
+  padding-left: 40px;
+}
+.feature:nth-of-type(even) .desc {
+  float: left;
+  padding-right: 40px;
+}
+
+.feature {
+  overflow: hidden;
+}
+
+/* Voices */
+
+.voices {
+  background: #f8f8f8;
+}
+
+.voices .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.voice {
+  width: 250px;
+  background: #fff;
+  position: relative;
+  box-sizing: border-box;
+  padding: 60px 40px 25px;
+}
+
+.voice img {
+  border-radius: 50%;
+  border: 10px solid #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  top: -55px;
+}
+
+.voice h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.voices .section-title {
+  margin-bottom: 95px;
+}
