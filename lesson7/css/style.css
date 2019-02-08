@@ -36,6 +36,23 @@ body {
   padding-top: 10px;
 }
 
+/* btn */
+.btn {
+  display: inline-block;
+  width: 290px;
+  background: #fff;
+  color: #f39800;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 0;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1.0;
+}
+
 /* header */
 header .container {
   position: relative;
@@ -56,23 +73,6 @@ header img {
   position: absolute;
   bottom: 0;
   right: 0;
-}
-
-/* btn */
-.btn {
-  display: inline-block;
-  width: 290px;
-  background: #fff;
-  color: #f39800;
-  text-align: center;
-  text-decoration: none;
-  padding: 8px 0;
-  border-radius: 5px;
-  opacity: 0.9;
-}
-
-.btn:hover {
-  opacity: 1.0;
 }
 
 /* feature */
@@ -139,4 +139,22 @@ header img {
 
 .voices .section-title {
   margin-bottom: 95px;
+}
+
+/* call-to-action */
+
+.call-to-action {
+  text-align: center;
+}
+
+.call-to-action .section-title {
+  margin-bottom: 15px;
+}
+
+/* footer */
+
+footer {
+  padding: 40px 0;
+  text-align: center;
+  color: #aaa;
 }
